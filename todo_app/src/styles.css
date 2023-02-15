@@ -1,0 +1,98 @@
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-delete {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+a.removelink {
+    color: #f44336;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+a.removelink:hover {
+    color: #d32f2f;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+    transform: rotate(-10deg);
+}
+
+a.editlink {
+    color: #3e8e41;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+a.editlink:hover {
+    color: #3e8e41;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+    transform: rotate(-10deg);
+}
+
+.task-actions-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-center{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+    text-shadow: 1px 1px 0 #f9c784, 2px 2px 0 #f9626e, 3px 3px 0 #f14f7b, 2px 2px 0 #b52c6f;
+    letter-spacing: 2px;
+    line-height: 1.2;
+
+}
+
+.task-center_plus{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    text-shadow: 1px 1px 0 #f9c784, 2px 2px 0 #d700ff, 3px 3px 0 #543581, 2px 2px 0 #b52c6f;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+.task-center_plus-1{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+    text-shadow: 1px 1px 0 #25002e, 2px 2px 0 #9a9999, 3px 3px 0 #0a289d, 2px 2px 0 #b52c6f;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
